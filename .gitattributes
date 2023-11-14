@@ -1,0 +1,5 @@
+# End of line characters are a problem when the team is developing on Windows (CRLF), Unix (LF), and Mac (LF) 
+# This small file will fix that.  Line endings in the repository will be set to LF while local line endings will be left "alone".  
+# This enables windows users to develop using CRLF but then push using LF.
+
+* text=auto
